@@ -1,0 +1,37 @@
+/* Sidebar Styling */
+.sidebar-custom {
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    padding: 15px;
+  }
+  
+  /* Sidebar Items */
+  .sidebar-item {
+    border-radius: 10px;
+    padding: 10px 15px;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  }
+  
+  /* Rounded top for the first item */
+  .sidebar-item:first-child {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  /* Remove default active color */
+  .sidebar-item.active {
+    background-color: #e9ecef !important;
+    color: black !important;
+  }
+  
+  /* Hover Effect */
+  .sidebar-item:hover {
+    background-color: #e9ecef;
+  }
+  
+  /* Remove focus outline */
+  .sidebar-item:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
